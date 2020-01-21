@@ -9,7 +9,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-q", "--query", required=True, help="search query to search Bing Image API for")
 ap.add_argument("-o", "--output", required=True, help="path to output directory of images")
 args = vars(ap.parse_args())
-API_KEY = "ac624906f0c141f0a9a2d65461df8896"
+API_KEY = "YOURE API KEY"
 MAX_RESULTS = 250
 GROUP_SIZE = 50
 
