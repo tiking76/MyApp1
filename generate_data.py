@@ -15,7 +15,7 @@ Y = []
 
 for index, classlabel in enumerate(classes):
     photo_dir = './dataset/' + classlabel
-    files = glob.glob(photo_dir + '/*.jpg')
+    files = glob.glob(photo_dir + ('/*.jpg'or'/*.png'or'/*.jpeg'))
     for i, file in enumerate(files):
         image = Image.open(file)
         # standardize to 'RGB'
